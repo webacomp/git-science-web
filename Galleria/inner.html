@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inner site</title>
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+     <a href="index.html"><h1>galleria.</h1></a> 
+      <h3><a href="#">start slideshow</a></h3>
+    </header>
+
+    <div class="divider"></div>
+
+    <div class="gallery-container">
+
+      <section  class="starry-night">
+        <div id="moving-gallery" class="starry-night--flex">
+          <div class="starry-night--row">
+            <button id="view-image"
+              class="starry-night--btn"
+
+            >
+              <i class="fas fa-compress-arrows-alt"></i> View image
+            </button>
+            <div class="starry-night-img--content">
+              <img id="change-image" src="img/starry night.jpeg" alt="" />
+            </div>
+          </div>
+
+          <div class="starry-night--content">
+            <div class="card starry-night-inner--card">
+              <h2>Starry Night</h2>
+              <h3>Vincent Van Gogh</h3>
+              <img 
+                class="starry-night-card--van-gogh"
+                src="img/van gogh.jpeg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="article-flex">
+          <article class="starry-night--text">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Reiciendis magni modi, sapiente, facere repellat nulla sit vero
+              veniam neque officia mollitia ex quidem! Sed itaque vel adipisci
+              placeat commodi velit dolorum voluptate, minima voluptatem tempore
+              officia labore. Nulla commodi, molestias nesciunt aperiam ipsum
+              reprehenderit suscipit, repudiandae neque fugit placeat cupiditate
+              atque! Autem quibusdam, excepturi esse blanditiis eum officiis quo
+              molestias dolor magni ea? Aperiam maiores reprehenderit eligendi,
+              alias dolor id, labore necessitatibus suscipit voluptatibus odio
+              aspernatur. Eos in sint tempore dolorum beatae facilis ad sit,
+              architecto alias fuga aliquid ut suscipit recusandae, molestiae
+              pariatur! Iure, tenetur nemo! Voluptate, minus ut.
+            </p>
+          </article>
+
+          <a class="inner-btn" href="./index.html">back to the homepage</a>
+        </div>
+      </section>
+    </div>
+
+    <div class="divider divider-2"></div>
+
+    <div class="end-of-slider">
+      <div>
+        <h2>Starry Night</h2>
+        <h3>Vincent Van Gogh</h3>
+      </div>
+
+      <div class="arrow-right">
+        <i id="arrow-btn" class="fas fa-arrow-right fa-2x"></i>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

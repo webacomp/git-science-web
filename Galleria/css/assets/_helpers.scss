@@ -1,0 +1,37 @@
+
+.divider {
+    width: 100%;
+    border-bottom: 1px solid rgb(0 0 0 /.2);
+    margin-bottom: 1em;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+
+    position: absolute;
+    bottom: -12em;
+    left: 0em;
+    width: 100%;
+    max-width: 360px;
+    height: 220px;
+      padding: 1em;
+
+    background-color: var(--primary-bg);
+  
+
+    box-shadow:0 0 1em rgb(0 0 0 /.2);
+
+    line-height: 1.2;
+
+    h3 {
+        color: var(--primary-text);
+    }
+
+    img {
+        margin-top: 1em;
+    }
+}
